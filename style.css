@@ -1,0 +1,192 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+nav > div {
+    background-color: rgb(0, 0, 0);
+}
+nav > ul {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    color: white;
+    padding-top: 15px;
+}
+nav > ul > li {
+    list-style-type: none;
+}
+nav > div > h1 {
+    margin-left: 30px;
+    color: white;
+    padding-top: 10px;
+}
+
+/* header */
+
+
+header {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header > div {
+    background-color: rgb(0, 0, 0);
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    color: white;
+
+}
+header > div > div  > h1 {
+    padding-top: 20px;
+    
+}
+header > div > div > p {
+    padding-top: 20px;
+}
+
+header > div > img {
+    width: 600px;
+    height: 400px;
+}
+
+.button1 {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(57, 57, 233);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.button2 {
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* SECTION */ 
+
+.section1 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section1 > div {
+    
+    background-color: white;
+    height: 600px;
+    width: 400px;
+}
+
+
+.section1div1 > div {
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.section1div1 > div > h1{
+    font-size: 20px;
+    
+
+}
+.section1div1 > div > p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.section1div2 > div {
+
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.section1div2 > div > h1{
+    font-size: 20px;
+    
+
+}
+.section1div2 > div > p {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+/* section2 */
+
+.section2 {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.section2 > div > p {
+
+    font-size: 30px;
+    color: rgb(99, 97, 97);
+    padding-top: 150px;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+.section2 > div > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+/* SECTION 3 */
+
+.section3 {
+
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.section3 > div {
+    background-color: white;
+    width: 400px;
+    height: 600px;
+}
+
+.section31 {
+    display: flex;
+    
+    
+}
+
+.section31 > div {
+    background-color: aqua;
+    width: 300px;
+}
